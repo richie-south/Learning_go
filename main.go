@@ -1,14 +1,11 @@
 package main
 
-import (
-	"fmt"
-
-	"github.com/rs222kn/Learning_go/firstClass"
-)
+import "github.com/rs222kn/Learning_go/inARow"
 
 func main() {
 
-	fmt.Println("go")
+	inARow.Start()
+	/*fmt.Println("go")
 	myArray := []string{"a", "c", "b", "a"}
 
 	resultFilter := firstClass.MyFilter(myArray, func(value string) bool {
@@ -27,5 +24,5 @@ func main() {
 	})
 
 	fmt.Println(resultMap)
-	fmt.Println("Hello world!")
+	fmt.Println("Hello world!")*/
 }
